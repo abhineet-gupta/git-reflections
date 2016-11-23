@@ -1,0 +1,16 @@
+Q1. What happens when you initialise a respository? Why do you need to do it?
+A1. Initialising a repository creates the .git folder in that directly. 
+This is used for git's inner workings i.e. keeping track of file changes.
+----
+
+Q2. How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
+A2. Staging area contains the files that will be part of a single commit.
+Working directory contains ALL the files that are in the folder.
+Repository is a collection of files that git is keeping track of 
+and the changes/commits made to them over time.
+Staging area allows us to 'stage' our changes that will form part of the 
+next commit. This means we have better control over what gets committed.
+----
+
+Q3. 
