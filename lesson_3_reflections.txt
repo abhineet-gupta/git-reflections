@@ -11,4 +11,12 @@ that we do not want to be automatically reflected in our local copy.
 Also, this could become traffic intense.
 ----
 
-Q3. 
+Q3. Describe the differences between forks, clones, and branches. 
+When would you use one instead of another?
+A3. Forks are a GitHub-specific action of copying an existing GitHub
+repo to one's own GitHub account.
+Clones are just git-repo copies, GitHub or not. [Forks are a type of this]
+Branches are a copy contained WITHIN a repository.
+----
+
+Q4. 
