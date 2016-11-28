@@ -1,2 +1,14 @@
-Q1. When would you want to use a remote repository rather than keeping all your work local?
-A1. When having a cloud backup is considered important, and when other people are working on that repository.
+Q1. When would you want to use a remote repository rather than keeping 
+all your work local?
+A1. When having a cloud backup is considered important, and when other 
+people are working on that repository.
+----
+
+Q2. Why might you want to always pull changes manually rather than 
+having Git automatically stay up-to-date with your remote repository?
+A2. Because other people may have pushed changes to that repository
+that we do not want to be automatically reflected in our local copy.
+Also, this could become traffic intense.
+----
+
+Q3. 
