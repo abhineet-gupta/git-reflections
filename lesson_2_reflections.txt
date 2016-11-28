@@ -1,10 +1,12 @@
 Q1. What happens when you initialise a respository? Why do you need to do it?
+
 A1. Initialising a repository creates the .git folder in that directly. 
 This is used for git's inner workings i.e. keeping track of file changes.
 ----
 
 Q2. How is the staging area different from the working directory and the 
 repository? What value do you think it offers?
+
 A2. Staging area contains the files that will be part of a single commit.
 Working directory contains ALL the files that are in the folder.
 Repository is a collection of files that git is keeping track of 
@@ -13,4 +15,38 @@ Staging area allows us to 'stage' our changes that will form part of the
 next commit. This means we have better control over what gets committed.
 ----
 
-Q3. 
+Q3. How can you use the staging area to make sure you have one commit 
+per logical change?
+
+A3. Only add the files that include one logical change. A commit will only
+update the repository with the changes that have been staged, thus allowing
+for control over what gets committed and not 'what has been changed'.
+----
+
+Q4. What are some situations when branches would be helpful in keeping your 
+history organized? How would branches help?
+
+A4. Branches are useful for experimenting with new features while maintaining
+a working piece of code, instead of having to checkout it every time and move
+back and forth between the working copy and experimental copy.
+----
+
+Q5. How do the diagrams help you visualize the branch structure?
+
+A5. By graphing the branches and showing their parents.
+----
+
+Q6. What is the result of merging two branches together? Why do we represent 
+it in the diagram the way we do?
+
+A6. Both branches changes are reflected in the output i.e. both sets of 
+changes are "merged". It's represented in the diagram that way because
+it's a merge. Duh.
+----
+
+Q7. What are the pros and cons of Git’s automatic merging vs. always 
+doing merges manually?
+
+A7. Pros: requires less work
+	Cons: requires manual intervention in case of even simple conflicts
+----
