@@ -1,0 +1,2 @@
+Q1. When would you want to use a remote repository rather than keeping all your work local?
+A1. When having a cloud backup is considered important, and when other people are working on that repository.
