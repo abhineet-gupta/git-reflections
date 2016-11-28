@@ -25,4 +25,12 @@ A4. To know of changes other people may have made, and to intervene early
 rather than later when merging conflicts would be much more difficult.
 ----
 
-Q5. 
+Q5. How would you collaborate without using Git or GitHub? 
+What would be easier, and what would be harder?
+A5. Email each other updated versions of the file with comments where
+necessary. This would get clunky and unmanageable really fast.
+We could also have a text file in the cloud to collaborate on e.g. GDocs
+but this wouldn't be optimised for code.
+It would be easier to perform, but harder to scale.
+----
+
