@@ -34,3 +34,9 @@ but this wouldn't be optimised for code.
 It would be easier to perform, but harder to scale.
 ----
 
+Q6. When would you want to make changes in a separate branch rather than 
+directly in master? What benefits does each approach have?
+A6. When those changes need to be approved by other people.
+It's more complicated, but allows management of changes made by different
+people potentially to the same part of the file.
+----
